@@ -1,0 +1,9 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+BF_Interpreter
