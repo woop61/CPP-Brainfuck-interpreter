@@ -17,13 +17,13 @@ It features an optimization pass that compresses sequences of identical instruct
 * **Robust Error Handling:** Detects and reports syntax errors such as mismatched brackets or unclosed loops with specific position indicators.
 * **Memory Management:** Implements a standard 30,000-cell tape with wrapping pointers.
 
-* 🧠 Technical Details
-Optimization Strategy
+## 🧠 Technical Details
+**Optimization Strategy**
 The interpreter uses a preprocessing step before execution. Instead of executing characters directly, it converts the raw source string into a vector of Operation structs.
 
-Raw: +++++ (5 iterations of the interpreter loop)
+**Raw:** +++++ (5 iterations of the interpreter loop)
 
-Optimized: Operation { type: '+', operand: 5 } (1 iteration)
+**Optimized:** Operation **{ type: '+', operand: 5 }** (1 iteration)
 
 This mimics the tokenization phase in compiler design, effectively transforming the source code into an intermediate representation (IR) for faster execution.
 
