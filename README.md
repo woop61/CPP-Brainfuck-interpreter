@@ -53,9 +53,7 @@ Ensure you have a C++ compiler supporting C++20 (e.g., `g++`) and `make` install
 The interpreter reads Brainfuck source code directly from standard input (`stdin`). You can pipe a file into it or type interactively.
 
 # Run the included sample script
-./BF_Interpreter < hello.bf
 
-**Running a file:**
 ```bash
-./BF_Interpreter < script.bf
+./BF_Interpreter < hello.bf
 
