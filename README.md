@@ -55,5 +55,5 @@ The interpreter reads Brainfuck source code directly from standard input (`stdin
 # Run the included sample script
 
 ```bash
-./BF_Interpreter < hello.bf
+./BF_Interpreter < /examples/hello.bf
 
