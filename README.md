@@ -3,9 +3,9 @@
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-# Optimized Brainfuck Interpreter
+# Optimized Brainf*ck Interpreter
 
-A lightweight, optimized interpreter for the [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) esoteric programming language, written in C++20.
+A lightweight, optimized interpreter for the [Brainf*ck](https://en.wikipedia.org/wiki/Brainfuck) esoteric programming language, written in C++20.
 
 This project was developed as part of a **Compilation Theory** course to explore lexical analysis and interpreter architecture.
 It features an optimization pass that compresses sequences of identical instructions (Run-Length Encoding) to improve execution speed.
@@ -33,8 +33,8 @@ Ensure you have a C++ compiler supporting C++20 (e.g., `g++`) and `make` install
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/woop61/CPP-Brainfuck-interpreter](https://github.com/woop61/CPP-Brainfuck-interpreter)
-    cd CPP-Brainfuck-interpreter
+    git clone [https://github.com/woop61/CPP-Brainfuck-interpreter](https://github.com/woop61/CPP-BF-interpreter)
+    cd CPP-BF-interpreter
     ```
 
 2.  **Build the project:**
@@ -50,7 +50,7 @@ Ensure you have a C++ compiler supporting C++20 (e.g., `g++`) and `make` install
 
 ## 💻 Usage
 
-The interpreter reads Brainfuck source code directly from standard input (`stdin`). You can pipe a file into it or type interactively.
+The interpreter reads Brainf*ck source code directly from standard input (`stdin`). You can pipe a file into it or type interactively.
 
 # Run the included sample script
 
